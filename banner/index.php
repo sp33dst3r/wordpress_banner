@@ -27,7 +27,7 @@ class HelloBar_Widget extends WP_Widget {
         $title = ! empty( $instance['title'] ) ? $instance['title'] : '';
         $text = ! empty( $instance['text'] ) ? $instance['text'] : 'Если у Вас есть вопросы – пожалуйста напишите нам:';
         ?>
-        Форма "Заказать презентацию"
+        
         
         <p>
             <label for="<?php echo $this->get_field_id( 'title'); ?>">Title:</label>
